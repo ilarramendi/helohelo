@@ -13,5 +13,5 @@ function hash(string) {
 }
 
 export default function (name, filename, css) {
-	return `MT_${path.basename(filename, '.scss')}_${name}_${hash(css)}`;
+	return `HeloHelo_${path.basename(filename, '.scss')}_${name}_${hash(css)}`;
 }

@@ -93,8 +93,7 @@ export default class App extends Component<{}, State> {
 								value={email}
 								onChange={e =>
 									this.setState({
-										validEmail:
-											e.target.value.match(/[.\-\w]+@[\-\w]+\.[\-\w]+/) && true,
+										validEmail: e.target.value.match(/^[.\-\w]+@[\-\w]+\.[\-\w]+$/) && true,
 										email: e.target.value
 									})
 								}
