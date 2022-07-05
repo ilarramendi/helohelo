@@ -1,0 +1,75 @@
+.container {
+	min-width: 370px;
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	position: relative;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-left: 100px;
+	box-shadow: 0px 8px 16px rgba(86, 80, 76, 0.04), 0px 2px
+		16px rgba(86, 80, 76, 0.04), 0px 1px 4px
+		rgba(86, 80, 76, 0.04);
+
+	img {
+		max-width: 100%;
+	}
+
+	.homeButton {
+		position: absolute;
+		top: 160px;
+		padding: 15px;
+		width: 60px;
+		height: 60px;
+		left: 20px;
+		background-color: white;
+		cursor: pointer;
+		border-radius: 50%;
+		border: none;
+		outline: none;
+		box-shadow: 0px 8px 16px rgba(86, 80, 76, 0.04), 0px 2px
+			16px rgba(86, 80, 76, 0.04), 0px 1px 4px
+			rgba(86, 80, 76, 0.04);
+		
+		&:hover {
+			background-color: #f8f8f8;
+		}
+	}
+
+	> div {
+		padding: 20px;
+
+		h2 {
+			font-size: 20px;
+			font-weight: 700;
+			margin: 10px 0;
+		}
+	}
+
+	.nowButton {
+		border: 2px solid #106EB0;
+		color: #106EB0;
+		cursor: pointer;
+		font-weight: 600;
+		font-size: 20px;
+		padding: 15px;
+		border-radius: 5px;
+		background-color: white;
+		margin: 20px;
+
+		&:hover {
+			background-color: #f8f8f8;
+		}
+	}
+
+	.positionContainer {
+		color: #89837F;
+		display: flex;
+		margin-top: 10px;
+
+		svg {
+			margin-right: 10px;
+		}
+	}
+}
